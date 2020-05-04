@@ -19,6 +19,8 @@ moves = (moveHorizonal, moveVerticle)
 x_distance = abs(origin_point[0] + moves[0])
 y_distance = abs(origin_point[1] + moves[1])
 
-distance = round(math.sqrt((x_distance**x_distance) + (y_distance**y_distance)))
+print(x_distance, y_distance)
+
+distance = math.sqrt((x_distance**x_distance) + (y_distance**y_distance))
 
 print(distance)
